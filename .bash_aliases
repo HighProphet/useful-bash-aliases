@@ -1,0 +1,5 @@
+alias denter="docker-enter"
+alias dpid="docker-pid"
+alias dip="docker-ip"
+alias drmc="docker rm $(docker ps -aq)"
+alias dpsa="docker ps -a"
