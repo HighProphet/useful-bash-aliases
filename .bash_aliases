@@ -7,10 +7,11 @@ alias .5="cd ../../../../../"
 alias lh="ll -h"
 
 #docker operations
+alias d="docker"
 alias denter="docker-enter"
 alias dpid="docker-pid"
 alias dip="docker-ip"
-alias drmc="docker rm $(docker ps -aq)"
+alias dcc="docker rm $(docker ps -aq)"
 alias dpsa="docker ps -a"
 alias dimg="docker images"
 alias drun="docker run"
