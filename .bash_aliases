@@ -7,18 +7,21 @@ alias .5="cd ../../../../../"
 alias lh="ll -h"
 
 #docker operations
+alias d="docker"
 alias denter="docker-enter"
 alias dpid="docker-pid"
 alias dip="docker-ip"
-alias dcc='docker rm $(docker ps -aq)'
 alias drmi="docker rmi"
+alias dcc="docker rm $(docker ps -aq)"
 alias dpsa="docker ps -a"
 alias dimg="docker images"
 alias drun="docker run"
+alias drnti="docker run -ti"
 alias drund="docker run -d"
-alias drndti="docker run -dti"
+alias drntid="docker run -tid"
 alias dsave="docker save"
 alias dload="docker load"
+alias dimpt="docker import"
 alias dcmt="docker commit"
 
 #git operations
@@ -29,3 +32,4 @@ alias gadd="git add"
 alias gcmt="git commit"
 alias gpsh="git push"
 alias gpll="git pull"
+
